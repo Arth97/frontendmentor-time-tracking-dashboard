@@ -5,7 +5,7 @@ const ProfileCard = ({setDateTime}) => {
   return (
     <div className="profile-card">
       <div className="top-card">
-        <img src="/image-jeremy.png" alt="Avatar" className="avatar" />
+        <img src="./image-jeremy.png" alt="Avatar" className="avatar" />
         <div className="mt-8 text-white text-left flex flex-col items-start gap-3">
           <p className="text-gray-400">Report for</p>
           <h1 className="text-4xl">Jeremy Robson</h1>
