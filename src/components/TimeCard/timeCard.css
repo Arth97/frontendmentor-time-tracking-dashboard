@@ -1,0 +1,52 @@
+.time-card {
+  height: 245;
+  width: 255px;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  color: white;
+  background-color: var(--dark-blue);
+
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.inner-card {
+  height: 190px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--dark-blue);
+}
+
+
+/* Colores específicos por tipo */
+.work-bg {
+  background-color: var(--light-red-work);
+  background-image: url('/public/icon-work.svg');
+}
+
+.play-bg {
+  background-color: var(--soft-blue-play);
+  background-image: url('/public/icon-play.svg');
+}
+
+.study-bg {
+  background-color: var(--light-red-study);
+  background-image: url('/public/icon-study.svg');
+}
+
+.exercise-bg {
+  background-color: var(--lime-green-excersise);
+  background-image: url('/public/icon-exercise.svg');
+}
+
+.social-bg {
+  background-color: var(--violet-social);
+  background-image: url('/public/icon-social.svg');
+}
+
+.selfcare-bg {
+  background-color: var(--soft-orange-self-care);
+  background-image: url('/public/icon-self-care.svg');
+}
