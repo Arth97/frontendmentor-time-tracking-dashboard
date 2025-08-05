@@ -7,8 +7,8 @@ function App() {
   const [dateTime, setDateTime] = useState("daily")
 
   return (
-    <div className="main-container">
-      <div class="parent">
+    <div className="flex flex-col justify-center items-center">
+      <div className="grid">
         <ProfileCard classname="profile-card" setDateTime={setDateTime}></ProfileCard>
         <TimeCard title={"Work"} dateTime={dateTime}></TimeCard>
         <TimeCard title={"Play"} dateTime={dateTime}></TimeCard>

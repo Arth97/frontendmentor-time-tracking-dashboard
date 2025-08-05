@@ -19,6 +19,9 @@
   background-color: var(--dark-blue);
 }
 
+.inner-card:hover {
+  background-color: var(--desaturated-blue);
+}
 
 /* Colores específicos por tipo */
 .work-bg {
@@ -49,4 +52,8 @@
 .selfcare-bg {
   background-color: var(--soft-orange-self-care);
   background-image: url('/public/icon-self-care.svg');
+}
+
+.prev-time {
+  color: var(--pale-blue);
 }
